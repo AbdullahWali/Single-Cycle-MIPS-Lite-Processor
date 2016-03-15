@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="alu.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="alu.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="top.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="top.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="topModuleTest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1457392160" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1457392160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457392160" xil_pn:in_ck="7712867673115256941" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1457392160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="adder.v"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="aludec.v"/>
+      <outfile xil_pn:name="controller.v"/>
+      <outfile xil_pn:name="datapath.v"/>
+      <outfile xil_pn:name="dmem.v"/>
+      <outfile xil_pn:name="flopenr.v"/>
+      <outfile xil_pn:name="flopr.v"/>
+      <outfile xil_pn:name="imem.v"/>
+      <outfile xil_pn:name="maindec.v"/>
+      <outfile xil_pn:name="mips.v"/>
+      <outfile xil_pn:name="mux2.v"/>
+      <outfile xil_pn:name="regfile.v"/>
+      <outfile xil_pn:name="signextend.v"/>
+      <outfile xil_pn:name="sl2.v"/>
+      <outfile xil_pn:name="top.v"/>
+      <outfile xil_pn:name="topModuleTest.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1457392160" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2797325482505258992" xil_pn:start_ts="1457392160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457392160" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6847635710341381038" xil_pn:start_ts="1457392160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457392160" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8533859493708718358" xil_pn:start_ts="1457392160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457392160" xil_pn:in_ck="7712867673115256941" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1457392160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="adder.v"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="aludec.v"/>
+      <outfile xil_pn:name="controller.v"/>
+      <outfile xil_pn:name="datapath.v"/>
+      <outfile xil_pn:name="dmem.v"/>
+      <outfile xil_pn:name="flopenr.v"/>
+      <outfile xil_pn:name="flopr.v"/>
+      <outfile xil_pn:name="imem.v"/>
+      <outfile xil_pn:name="maindec.v"/>
+      <outfile xil_pn:name="mips.v"/>
+      <outfile xil_pn:name="mux2.v"/>
+      <outfile xil_pn:name="regfile.v"/>
+      <outfile xil_pn:name="signextend.v"/>
+      <outfile xil_pn:name="sl2.v"/>
+      <outfile xil_pn:name="top.v"/>
+      <outfile xil_pn:name="topModuleTest.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1457392162" xil_pn:in_ck="7712867673115256941" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8546063768275069279" xil_pn:start_ts="1457392160">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

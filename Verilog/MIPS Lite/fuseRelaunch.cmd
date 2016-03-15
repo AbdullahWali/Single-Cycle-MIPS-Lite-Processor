@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/topModuleTest_isim_beh.exe" -prj "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/topModuleTest_beh.prj" "work.topModuleTest" "work.glbl" 

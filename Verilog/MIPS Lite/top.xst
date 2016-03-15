@@ -1,0 +1,5 @@
+set -tmpdir "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/xst/projnav.tmp"
+set -xsthdpdir "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/xst"
+elaborate
+-ifn top.prj
+-ifmt mixed

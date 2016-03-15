@@ -1,0 +1,65 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sl2.v" in library work
+Compiling verilog file "signextend.v" in library work
+Module <sl2> compiled
+Compiling verilog file "regfile.v" in library work
+Module <signext> compiled
+Compiling verilog file "mux2.v" in library work
+Module <regfile> compiled
+Compiling verilog file "maindec.v" in library work
+Module <mux2> compiled
+Compiling verilog file "flopr.v" in library work
+Module <maindec> compiled
+Compiling verilog file "aludec.v" in library work
+Module <flopr> compiled
+Compiling verilog file "alu.v" in library work
+Module <aludec> compiled
+Compiling verilog file "adder.v" in library work
+Module <alu> compiled
+Compiling verilog file "datapath.v" in library work
+Module <adder> compiled
+Compiling verilog file "controller.v" in library work
+Module <datapath> compiled
+Compiling verilog file "mips.v" in library work
+Module <controller> compiled
+Compiling verilog file "imem.v" in library work
+Module <mips> compiled
+Compiling verilog file "dmem.v" in library work
+Module <imem> compiled
+Compiling verilog file "top.v" in library work
+Module <dmem> compiled
+Module <top> compiled
+No errors in compilation
+Analysis of file <"top.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+
+Total memory usage is 230416 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

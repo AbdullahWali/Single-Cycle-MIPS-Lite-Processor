@@ -1,0 +1,47 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/topModuleTest_isim_beh.exe -prj E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/topModuleTest_beh.prj work.topModuleTest work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/sl2.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/signextend.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/regfile.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/mux2.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/maindec.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/flopr.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/aludec.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/alu.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/adder.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/datapath.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/controller.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/mips.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/imem.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/dmem.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/top.v" into library work
+Analyzing Verilog file "E:/Google Drive/Bilkent/Semester IV/CS224/Labs/Lab 3/Verilog/Lab3/topModuleTest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 156764 KB
+Fuse CPU Usage: 265 ms
+Compiling module maindec
+Compiling module aludec
+Compiling module controller
+Compiling module flopr(WIDTH=32)
+Compiling module adder
+Compiling module sl2
+Compiling module mux2(WIDTH=32)
+Compiling module regfile
+Compiling module mux2(WIDTH=5)
+Compiling module signext
+Compiling module alu
+Compiling module datapath
+Compiling module mips
+Compiling module imem
+Compiling module dmem
+Compiling module top
+Compiling module topModuleTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+ERROR:Simulator:861 - Failed to link the design
